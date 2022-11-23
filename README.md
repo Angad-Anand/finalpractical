@@ -29,11 +29,7 @@ package net.codejava.io;
 import java.io.FileReader;
 import java.io.IOException;
  
-/**
- * This program demonstrates how to read characters from a text file.
- * @author www.codejava.net
- *
- */
+
 public class TextFileReadingExample1 {
  
     public static void main(String[] args) {
@@ -52,7 +48,7 @@ public class TextFileReadingExample1 {
     }
  
 
-To write on file using java reader
+3. To write on file using java reader
 package net.codejava.io;
  
 import java.io.FileWriter;
@@ -80,7 +76,7 @@ public class TextFileWritingExample1 {
  
 }
 
-3-Bubble sort in java
+4-Bubble sort in java
 import java.util.Scanner;
 
 public class CodesCracker
@@ -116,7 +112,7 @@ public class CodesCracker
    }
 }
 
-4- get ip address using swings
+5- get ip address using swings
 import java.net.InetAddress;
 
 class GetMyIPAddress
@@ -130,56 +126,54 @@ class GetMyIPAddress
   }
 }
 5-Sum and average using java aaplet
-1.	import java.awt.*;  
-2.	import java.awt.event.*;  
-3.	import java.applet.*;  
-4.	public class Q2 extends Applet implements ActionListener  
-5.	{  
-6.	    TextField t1 = new TextField(10);  
-7.	    TextField t2 = new TextField(10);  
-8.	    TextField t3 = new TextField(10);  
-9.	    Label l1 = new Label("FIRST NO=:");  
-10.	    Label l2 = new Label("SECOND NO:");  
-11.	    Label l3 = new Label("SUM:");  
-12.	    Button b = new Button("ADD");  
-13.	    public void init()  
-14.	    {  
-15.	        t1.setForeground(Color = Red);  
-16.	        add(l1);  
-17.	        add(t1);  
-18.	        add(l2);  
-19.	        add(t2);  
-20.	        add(l3);  
-21.	        add(t3);  
-22.	        add(b);  
-23.	        b.addActionListener(this);  
-24.	    }  
-25.	    public void actionPerformed(ActionEvent e)  
-26.	    {  
-27.	        if (e.getSource() == b)  
-28.	        {  
-29.	            int n1 = Integer.parseInt(t1.getText());  
-30.	            int n2 = Integer.parseInt(t2.getText());  
-31.	            t3.setText(" " + (n1 + n2));  
-32.	        }  
-33.	    }  
-34.	}  
-
-
-35.	<HTML>  
-36.	  
-37.	    <HEAD>  
-38.	        <TITLE>WELCOME TO JAVA APPLET</TITLE>  
-39.	    </HEAD>  
-40.	  
-41.	    <BODY>  
-42.	        <CENTER>  
-43.	            <H1>WELCOME TO THE APPLET</H1> </CENTER>  
-44.	        <BR>  
-45.	        <APPLET CODE=Q2.class WIDTH=400 HEIGHT=400> </APPLET>  
-46.	    </BODY>  
-47.	  
-48.	</HTML>  
+	import java.awt.*;  
+	import java.awt.event.*;  
+	import java.applet.*;  
+	public class Q2 extends Applet implements ActionListener  
+	{  
+	    TextField t1 = new TextField(10);  
+	    TextField t2 = new TextField(10);  
+	    TextField t3 = new TextField(10);  
+	    Label l1 = new Label("FIRST NO=:");  
+	    Label l2 = new Label("SECOND NO:");  
+	    Label l3 = new Label("SUM:");  
+	    Button b = new Button("ADD");  
+	    public void init()  
+	    {  
+	        t1.setForeground(Color = Red);  
+	        add(l1);  
+	        add(t1);  
+	        add(l2);  
+	        add(t2);  
+	        add(l3);  
+	        add(t3);  
+	        add(b);  
+	        b.addActionListener(this);  
+	    }  
+	    public void actionPerformed(ActionEvent e)  
+	    {  
+	        if (e.getSource() == b)  
+	        {  
+	            int n1 = Integer.parseInt(t1.getText());  
+	            int n2 = Integer.parseInt(t2.getText());  
+	            t3.setText(" " + (n1 + n2));  
+	        }  
+	    }  
+	}  
+	<HTML>  
+	  
+	    <HEAD>  
+	        <TITLE>WELCOME TO JAVA APPLET</TITLE>  
+	    </HEAD>  
+	  
+	    <BODY>  
+	        <CENTER>  
+	            <H1>WELCOME TO THE APPLET</H1> </CENTER>  
+	        <BR>  
+	        <APPLET CODE=Q2.class WIDTH=400 HEIGHT=400> </APPLET>  
+	    </BODY>  
+	  
+	</HTML>  
 
 
 
